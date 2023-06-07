@@ -1,0 +1,11 @@
+a: int = 5
+b: str = 'строка'
+c: list = [1, 2]
+
+
+def indent(s: str, width: int) -> str:
+return " " * (max(0, widht - len(s))) + s
+
+
+
+Print(ident('123' , 123))
